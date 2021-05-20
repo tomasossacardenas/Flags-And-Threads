@@ -10,11 +10,6 @@ public class Flag {
 	public static final String ANSI_BLUE_BACKGROUND = "\u001B[44m";
 	
 	public final static String ESC   = "\u001b[";
-	public final static String UP    = ESC+"A";
-	public final static String DOWN  = ESC+"B";
-	public final static String RIGHT = ESC+"C";
-	public final static String LEFT  = ESC+"D";
-	public final static String NXLN  = ESC+"1E";
 	
 	ThreadFlag threadFlagYellow;
 	ThreadFlag threadFlagBlue;
