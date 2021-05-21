@@ -1,9 +1,12 @@
+
 import model.Flag;
 
 public class Main {
+	
+	private static Flag colombiaFlag;
 
 	public static void main(String[] args) throws InterruptedException {		
-		Flag colombiaFlag=new Flag();
+		colombiaFlag=new Flag();
 		colombiaFlag.drawFlag();
 	}
 

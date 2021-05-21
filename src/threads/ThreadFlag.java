@@ -6,7 +6,6 @@ public class ThreadFlag extends Thread{
 	
 	public final static String ESC   = "\u001b[";
 	public final static String DOWN  = ESC+"B";
-	public final static String RIGHT = ESC+"C";
 	public final static String LEFT  = ESC+"D";
 	
 	Flag flag;
